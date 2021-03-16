@@ -1,0 +1,111 @@
+html{
+  margin-top: 25px;
+  margin-left: 7%;
+  margin-right: 7%;
+  scroll-behavior: smooth;
+  background: white;
+}
+
+
+
+
+
+#logo {
+  margin-left: 45%;
+  width: 5em;
+  height: 5em;
+}
+
+
+
+
+
+
+
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 5em;
+    background: white;
+}
+
+figure img {
+  /* height: 150px; */
+  width: auto;
+  min-height: 25em;
+  max-height: 75em;
+}
+
+
+
+
+
+
+
+
+figure img {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+
+figcaption h2 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  opacity: 0;
+}
+
+figure:hover figcaption h2 {
+  display: block;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	filter: blur(0);
+  display: block;
+  margin: 0px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+
+}
+
+
+.illustration {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 5em;
+  background: white;
+  max-width: 50em;
+  height: auto;
+}
+
+
+/* figcaption h2{
+  display: none;
+
+}
+figure:hover figcaption h2{
+  display: block;
+  margin: 0px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+} */
