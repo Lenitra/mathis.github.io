@@ -113,11 +113,11 @@ function dras() {
     html_img.setAttribute('src',dessins[i].img);
     html_figure.appendChild(html_img);
 
-    html_figcaption = document.createElement('figcaption');
-    html_figure.appendChild(html_figcaption);
-    html_titre = document.createElement('h2');
-    html_titre.textContent = dessins[i].titre;
-    html_figcaption.appendChild(html_titre);
+    // html_figcaption = document.createElement('figcaption');
+    // html_figure.appendChild(html_figcaption);
+    // html_titre = document.createElement('h2');
+    // html_titre.textContent = dessins[i].titre;
+    // html_figcaption.appendChild(html_titre);
 
   }
 }
