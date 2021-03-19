@@ -15,4 +15,12 @@ let data = [
 
 ]
 
-let page = 0
+let dessins = [
+
+  {"img": "https://scriptverse.academy/img/tutorials/js-add-remove-class.png",
+  "titre": "Un kikoolol"},
+
+  {"img": "https://scriptverse.academy/img/tutorials/js-add-remove-class.png",
+  "titre": "Un dessin 2"},
+  
+]

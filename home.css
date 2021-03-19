@@ -52,7 +52,7 @@ figure img {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-figure:hover img {
+figure:hover.projet img {
 	-webkit-filter: blur(3px);
 	filter: blur(3px);
 }
