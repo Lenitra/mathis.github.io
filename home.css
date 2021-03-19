@@ -23,7 +23,10 @@ footer p #copyrightfoo {
 }
 
 
-
+.imgbitemathispetit{
+  width: 60%;
+  height: auto;
+}
 
 
 figure {

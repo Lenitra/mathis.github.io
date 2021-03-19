@@ -71,6 +71,7 @@ function home() {
 
     html_img = document.createElement('img');
     html_img.setAttribute('src',data[i].img1);
+    html_img.setAttribute('class',"imgbitemathispetit");
     html_figure.appendChild(html_img);
 
     html_figcaption = document.createElement('figcaption');
