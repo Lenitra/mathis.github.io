@@ -9,8 +9,10 @@ let data = [
   {"titre":"Projet 2",
   "lore":"Description globale du projet !",
   "img1":"https://cdn.lynda.com/course/718674/718674-637491221301362093-16x9.jpg",
-  "img2":"",
+  "img2":"https://scriptverse.academy/img/tutorials/js-add-remove-class.png",
   "img3":"",
   "img4":""},
 
 ]
+
+let page = 0
