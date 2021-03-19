@@ -49,14 +49,7 @@ function projet(event) {
 
 }
 
-// <h1>Nom du projet</h1>
-// <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin augue eget volutpat dignissim. Fusce nec pharetra neque. Integer vulputate ligula vitae neque accumsan, ac congue lorem scelerisque. Phasellus ornare ipsum nisi, venenatis commodo risus condimentum non. In hac habitasse platea dictumst. Fusce eu dolor felis. Mauris aliquet ac risus eu rutrum. Cras volutpat, nunc sed bibendum mattis, libero mauris venenatis neque, ullamcorper mollis sapien mauris id odio. Curabitur consectetur nulla a eros auctor, sed rutrum orci maximus. Nulla dictum ante non lorem pretium commodo. Donec fringilla dolor ultrices augue rutrum ultricies. Nulla a felis non est accumsan accumsan.</p>
-// <p>Cras tempor sit amet neque eu sollicitudin. Nulla luctus urna urna, non porttitor nisi scelerisque at. Nunc non nisl odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus rhoncus eros id lorem porta, non pulvinar sem ultricies. Pellentesque vitae erat non enim maximus dictum vel pharetra metus. Vestibulum mattis ex eget risus fringilla, sed interdum massa molestie.</p>
-// <img src="images/projet1/i1.png" class="illustration">
-// <img src="images/projet1/i2.png" class="illustration">
-// <img src="images/projet1/i3.png" class="illustration">
-// <img src="images/projet1/i4.png" class="illustration">
-// <img src="images/projet1/i5.png" class="illustration">
+
 
 
 function home() {
