@@ -104,7 +104,6 @@ function dras() {
     html_main = document.querySelector(".site-section");
 
     html_figure = document.createElement('figure');
-    // html_figure.classList.add("projet");
     html_figure.value = dessins[i].titre
 
     html_main.appendChild(html_figure);
@@ -112,12 +111,6 @@ function dras() {
     html_img = document.createElement('img');
     html_img.setAttribute('src',dessins[i].img);
     html_figure.appendChild(html_img);
-
-    // html_figcaption = document.createElement('figcaption');
-    // html_figure.appendChild(html_figcaption);
-    // html_titre = document.createElement('h2');
-    // html_titre.textContent = dessins[i].titre;
-    // html_figcaption.appendChild(html_titre);
 
   }
 }
