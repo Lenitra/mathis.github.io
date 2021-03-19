@@ -15,6 +15,9 @@ function projet(event) {
       html_titre.textContent = data[i].titre
       html_main.appendChild(html_titre)
 
+      html_br = document.createElement('hr');
+      html_main.appendChild(html_br);
+
       html_lore = document.createElement('p');
       html_lore.textContent = data[i].lore
       html_main.appendChild(html_lore)
@@ -22,25 +25,29 @@ function projet(event) {
       if (data[i].img1 != "") {
         html_img = document.createElement('img');
         html_img.setAttribute('src',data[i].img1);
-        html_main.appendChild(html_img)
+        html_img.setAttribute('class',"imgbitemathispetit");
+        html_main.appendChild(html_img);
       }
 
       if (data[i].img2 != "") {
         html_img = document.createElement('img');
+        html_img.setAttribute('class',"imgbitemathispetit");
         html_img.setAttribute('src',data[i].img2);
-        html_main.appendChild(html_img)
+        html_main.appendChild(html_img);
       }
 
       if (data[i].img3 != "") {
         html_img = document.createElement('img');
         html_img.setAttribute('src',data[i].img3);
-        html_main.appendChild(html_img)
+        html_img.setAttribute('class',"imgbitemathispetit");
+        html_main.appendChild(html_img);
       }
 
       if (data[i].img4 != "") {
         html_img = document.createElement('img');
         html_img.setAttribute('src',data[i].img4);
-        html_main.appendChild(html_img)
+        html_img.setAttribute('class',"imgbitemathispetit");
+        html_main.appendChild(html_img);
       }
 
 
