@@ -16,9 +16,9 @@ function projet(event) {
       html_titre.style.margin= "5%";
       html_main.appendChild(html_titre);
 
-      html_br = document.createElement('hr');
-      html_br.style.margin = "3%";
-      html_main.appendChild(html_br);
+      // html_br = document.createElement('hr');
+      // html_br.style.margin = "3%";
+      // html_main.appendChild(html_br);
 
       html_lore = document.createElement('p');
       html_lore.textContent = data[i].lore;
@@ -107,9 +107,12 @@ function dras() {
     html_main = document.querySelector(".site-section");
 
     html_figure = document.createElement('figure');
-    html_figure.value = dessins[i].titre
+    html_figure.value = dessins[i].titre;
 
     html_main.appendChild(html_figure);
+    html_figcaption = document.createElement('figcaption');
+    html_figcaption.textContent = dessins[i].titre
+    html_figure.appendChild(html_figcaption);
 
     html_img = document.createElement('img');
     html_img.setAttribute('src',dessins[i].img);
