@@ -12,15 +12,17 @@ function projet(event) {
       html_main = document.querySelector(".site-section");
 
       html_titre = document.createElement('h2');
-      html_titre.textContent = data[i].titre
-      html_main.appendChild(html_titre)
+      html_titre.textContent = data[i].titre;
+      html_titre.style.margin= "5%";
+      html_main.appendChild(html_titre);
 
       html_br = document.createElement('hr');
+      html_br.style.margin = "3%";
       html_main.appendChild(html_br);
 
       html_lore = document.createElement('p');
-      html_lore.textContent = data[i].lore
-      html_main.appendChild(html_lore)
+      html_lore.textContent = data[i].lore;
+      html_main.appendChild(html_lore);
 
       if (data[i].img1 != "") {
         html_img = document.createElement('img');
